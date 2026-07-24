@@ -20,8 +20,18 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b7fe7bf4165e314793034761c031cc5
+    m_Address: Assets/Localization/Tables/Text/MainQuestsTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 97a6e9856593a474bb154511040bbabd
     m_Address: Assets/Localization/Tables/Text/Dialogue_Flowey Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb5ac8a7d065e8b46ad06f7686ecff5a
+    m_Address: Assets/Localization/Tables/Text/TestQuest Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

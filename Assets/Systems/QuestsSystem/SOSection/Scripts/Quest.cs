@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [Serializable]
 public enum QuestStepType
@@ -15,21 +16,29 @@ public record QuestAction
 {
     public QuestStepType QuestStepType;
     public string Target;
+
+    public QuestAction(QuestStepType come, string target)
+    {
+        this.QuestStepType = come;
+        this.Target = target;
+    }
 }
 
 [Serializable]
 public class QuestStep
 {
-    public string QuestStepName;
-    public string QuestStepDescription;
+    public LocalizedString QuestStepName;
+    public LocalizedString QuestStepDescription;
     public QuestAction QuestAction;
     public Vector3 PointerPosition;
 }
 
 [CreateAssetMenu(fileName = "Quest", menuName = "Quests/Quest", order = 1)]
-public class QuestsSO : ScriptableObject
+public class Quest : ScriptableObject
 {
-    public string QuestName;
+    public LocalizedString QuestName;
+    public QuestAction Condition;
     public Vector3 StartPosition;
+    public QuestAction StartQuestAction;
     public QuestStep[] Steps;
 }

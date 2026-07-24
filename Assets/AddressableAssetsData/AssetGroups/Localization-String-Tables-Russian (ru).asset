@@ -21,6 +21,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ru
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd7f36384c9a92743b7c40bbc95a57bf
+    m_Address: MainQuestsTable_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f54d28ef7adcee6418bdf10d4c72a9d6
+    m_Address: TestQuest_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: f2a695dbfe2959c45bd2be1f4ec37e2a, type: 2}
   m_SchemaSet:

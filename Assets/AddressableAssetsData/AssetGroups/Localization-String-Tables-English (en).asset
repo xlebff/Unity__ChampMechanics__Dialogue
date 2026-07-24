@@ -15,8 +15,20 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_GUID: 89453c27b1864e2419ed94b4d73ae32e
   m_SerializeEntries:
+  - m_GUID: 3eaf82db1045eb54a8625b27508f0b65
+    m_Address: MainQuestsTable_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a59f660f869e1884b9242c5e008f8898
     m_Address: Dialogue_Flowey_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcf19decdc44f4d4b83a45e083747678
+    m_Address: TestQuest_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
