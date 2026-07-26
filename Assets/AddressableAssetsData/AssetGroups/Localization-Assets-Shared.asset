@@ -25,6 +25,17 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e8caa2eb5faf2249bcc40167c8fda0a
+    m_Address: Assets/Localization/Tables/Audio/TestDialogue/TestDialogue Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92ceb1c5a3783f745b093be068212ae0
+    m_Address: Assets/Localization/Tables/Text/TestDialogue Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 97a6e9856593a474bb154511040bbabd
     m_Address: Assets/Localization/Tables/Text/Dialogue_Flowey Shared Data.asset
     m_ReadOnly: 1

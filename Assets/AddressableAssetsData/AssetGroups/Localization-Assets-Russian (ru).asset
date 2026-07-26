@@ -15,6 +15,30 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Russian (ru)
   m_GUID: 7e4624eaf6a18364ab5edf99973b2e59
   m_SerializeEntries:
+  - m_GUID: 0ea673a9a56351448a21f1689222f475
+    m_Address: Four_tu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1109963a86da41c4589041cc4472615e
+    m_Address: Nine_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 132ebb14b3debc341baee1b6fb32cb2e
+    m_Address: Five_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1339b236d2c1fe2438b64b227a6f52e1
+    m_Address: Two_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61630ab097eba1a4b94f42ee5ad32f52
     m_Address: Dialogue_Flowey_0_ru
     m_ReadOnly: 1
@@ -23,6 +47,42 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61a04e5c55d1caa4ba5cc19ad2309dc7
     m_Address: Dialogue_Flowey_1_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65ebaf190b152a045be437060168da2a
+    m_Address: Eight_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72e4da3a9808b02468c1f232e3f47d71
+    m_Address: Seven_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b8c4e233d751f5459793f8e9376b093
+    m_Address: One_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9b225c05be343045baac17ba2906bf6
+    m_Address: Ten_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b38bbf98064aa914c8a1cfaa75b11753
+    m_Address: Six_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edcb67f4c7cbbc64fae0ce87273714fc
+    m_Address: Three_ru
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru

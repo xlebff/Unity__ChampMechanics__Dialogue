@@ -15,9 +15,9 @@ public enum QuestStepType
 public record QuestAction
 {
     public QuestStepType QuestStepType;
-    public string Target;
+    public Target Target;
 
-    public QuestAction(QuestStepType come, string target)
+    public QuestAction(QuestStepType come, Target target)
     {
         this.QuestStepType = come;
         this.Target = target;

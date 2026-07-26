@@ -23,11 +23,11 @@ MonoBehaviour:
     m_LocalVariables: []
   Condition:
     QuestStepType: 0
-    Target: 
+    Target: {fileID: 0}
   StartPosition: {x: -4.55, y: 0.87, z: 2.25}
   StartQuestAction:
     QuestStepType: 1
-    Target: TestQuest
+    Target: {fileID: 11400000, guid: 5cca35406dd6cc240b3f36aea3630cd8, type: 2}
   Steps:
   - QuestStepName:
       m_TableReference:
@@ -49,7 +49,7 @@ MonoBehaviour:
       m_LocalVariables: []
     QuestAction:
       QuestStepType: 1
-      Target: BigRedSquare
+      Target: {fileID: 11400000, guid: d7b3a8764d95adb44828f9c271283b01, type: 2}
     PointerPosition: {x: 0, y: 0.902, z: 2.349}
   - QuestStepName:
       m_TableReference:
@@ -71,7 +71,7 @@ MonoBehaviour:
       m_LocalVariables: []
     QuestAction:
       QuestStepType: 1
-      Target: BigBlackSquare
+      Target: {fileID: 11400000, guid: 2eec0599cf394544784dd1d802fd965b, type: 2}
     PointerPosition: {x: 0, y: 0.902, z: 5.12}
   references:
     version: 2

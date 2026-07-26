@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: TestDialogue Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: TestDialogue
+  m_TableCollectionNameGuidString: 6e8caa2eb5faf2249bcc40167c8fda0a
+  m_Entries:
+  - m_Id: 8585076736
+    m_Key: 0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44865806336
+    m_Key: 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66042847232
+    m_Key: 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82031534080
+    m_Key: 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99307872256
+    m_Key: 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123982962688
+    m_Key: 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137681559552
+    m_Key: 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152214822912
+    m_Key: 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187996430336
+    m_Key: 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205138550784
+    m_Key: 9
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 368664647616954475
+  m_KeyGenerator:
+    rid: 368664647616954474
+  references:
+    version: 2
+    RefIds:
+    - rid: 368664647616954474
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1785067749986
+    - rid: 368664647616954475
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 8585076736
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 44865806336
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 66042847232
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 82031534080
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 99307872256
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 123982962688
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 137681559552
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 152214822912
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 187996430336
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 205138550784
+          m_TableCodes:
+          - en
+          - ru
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

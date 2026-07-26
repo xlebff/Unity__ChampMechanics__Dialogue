@@ -11,12 +11,6 @@ public class FastShowAndHide : MonoBehaviour
 
     private Coroutine activeCoroutine;
 
-    private void OnValidate()
-    {
-        if (animator == null)
-            animator = GetComponentInChildren<Animator>();
-    }
-
     public void Show()
     {
         if (activeCoroutine != null)

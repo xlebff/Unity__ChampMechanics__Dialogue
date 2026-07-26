@@ -371,7 +371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &192334207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleComeSygnal
   type: 1
-  target: TestQuest
+  target: {fileID: 11400000, guid: 5cca35406dd6cc240b3f36aea3630cd8, type: 2}
 --- !u!54 &193710032
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -867,9 +867,9 @@ RectTransform:
   m_Father: {fileID: 974832293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286440822
 MonoBehaviour:
@@ -1004,6 +1004,9 @@ MonoBehaviour:
   - {fileID: 1994739500}
   - {fileID: 594441032}
   - {fileID: 5244097}
+  - {fileID: 1169113701}
+  - {fileID: 2140221983}
+  - {fileID: 519238737}
 --- !u!1 &364552797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,10 +1041,10 @@ RectTransform:
   - {fileID: 2113719372}
   m_Father: {fileID: 974832293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 442, y: -80}
-  m_SizeDelta: {x: 20, y: 160}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -10, y: 0}
+  m_SizeDelta: {x: 20, y: 569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364552799
 MonoBehaviour:
@@ -1064,11 +1067,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.25490198}
+    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.36078432}
+    m_PressedColor: {r: 0, g: 0, b: 0, a: 0.42745098}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 0.39607844}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1085,9 +1088,9 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1464756375}
   m_HandleRect: {fileID: 1464756374}
-  m_Direction: 3
+  m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999535
+  m_Size: 0.99996555
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1209,6 +1212,57 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1 &519238735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519238736}
+  - component: {fileID: 519238737}
+  m_Layer: 0
+  m_Name: SquaresDespawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &519238736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519238735}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 682704582}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519238737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519238735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15502664d8ad834f889eba6fd278531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActionOnQuestProgress
+  quest: {fileID: 11400000, guid: 134dec15052fdce49ba1ae1d4f439d42, type: 2}
+  state: 1
+  step: 0
+  action: 1
+  objs:
+  - {fileID: 1456485827}
+  - {fileID: 1589129938}
 --- !u!1 &594441030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,21 +1310,6 @@ MonoBehaviour:
   unavailableQuestsList: []
   availableQuestsList:
   - Quest: {fileID: 11400000, guid: 134dec15052fdce49ba1ae1d4f439d42, type: 2}
-    Step: 0
-    Pointer: {fileID: 0}
-  - Quest: {fileID: 11400000, guid: 89cf263e9b998fd409562afe52552f96, type: 2}
-    Step: 0
-    Pointer: {fileID: 0}
-  - Quest: {fileID: 11400000, guid: 25c3bd080ded6e841be0c95fb6f7ef11, type: 2}
-    Step: 0
-    Pointer: {fileID: 0}
-  - Quest: {fileID: 11400000, guid: 405b98511311c2b4794b904e088f36e1, type: 2}
-    Step: 0
-    Pointer: {fileID: 0}
-  - Quest: {fileID: 11400000, guid: 36de9c6461e844347a60362c8cab8164, type: 2}
-    Step: 0
-    Pointer: {fileID: 0}
-  - Quest: {fileID: 11400000, guid: 74a12b7755444fb48b7a4796a61fa94d, type: 2}
     Step: 0
     Pointer: {fileID: 0}
   inProgressQuestsList: []
@@ -1547,9 +1586,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 644225713}
-  - {fileID: 1456485828}
   - {fileID: 193710030}
-  - {fileID: 1589129939}
+  - {fileID: 1169113700}
+  - {fileID: 2140221982}
+  - {fileID: 519238736}
   m_Father: {fileID: 1030988547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &823650768
@@ -1828,6 +1868,57 @@ Transform:
   - {fileID: 823650769}
   m_Father: {fileID: 1030988547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1169113699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1169113700}
+  - component: {fileID: 1169113701}
+  m_Layer: 0
+  m_Name: BigRedSquareSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1169113700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169113699}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1456485828}
+  m_Father: {fileID: 682704582}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1169113701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169113699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15502664d8ad834f889eba6fd278531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActionOnQuestProgress
+  quest: {fileID: 11400000, guid: 134dec15052fdce49ba1ae1d4f439d42, type: 2}
+  state: 0
+  step: 0
+  action: 0
+  objs:
+  - {fileID: 1456485827}
 --- !u!1 &1183300902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,8 +1931,9 @@ GameObject:
   - component: {fileID: 1183300906}
   - component: {fileID: 1183300905}
   - component: {fileID: 1183300904}
+  - component: {fileID: 1183300907}
   m_Layer: 5
-  m_Name: QuestsWindow
+  m_Name: QuestsWindowContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1863,8 +1955,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 500.00003, y: -253.49992}
-  m_SizeDelta: {x: 1000, y: 500}
+  m_AnchoredPosition: {x: 497.4999, y: -284.49997}
+  m_SizeDelta: {x: 971.9429, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183300904
 MonoBehaviour:
@@ -1886,8 +1978,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 1
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -1930,6 +2022,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183300902}
   m_CullTransparentMesh: 1
+--- !u!114 &1183300907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183300902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!1 &1377459879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,9 +2070,9 @@ RectTransform:
   - {fileID: 130725632}
   m_Father: {fileID: 192334207}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 750, y: -50}
   m_SizeDelta: {x: 160, y: 54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1377459881
@@ -2252,7 +2358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1456485828
 Transform:
   m_ObjectHideFlags: 0
@@ -2261,12 +2367,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456485827}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2.317}
   m_LocalScale: {x: 1, y: 0.01, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 682704582}
+  m_Father: {fileID: 1169113700}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1456485829
 BoxCollider:
@@ -2359,7 +2465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleComeSygnal
   type: 1
-  target: BigRedSquare
+  target: {fileID: 11400000, guid: d7b3a8764d95adb44828f9c271283b01, type: 2}
 --- !u!54 &1456485833
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2420,7 +2526,7 @@ RectTransform:
   m_Father: {fileID: 2113719372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.99996555}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2496,9 +2602,9 @@ RectTransform:
   - {fileID: 2121234669}
   m_Father: {fileID: 192334207}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -50}
   m_SizeDelta: {x: 160, y: 54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1499066854
@@ -2616,7 +2722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1589129939
 Transform:
   m_ObjectHideFlags: 0
@@ -2630,7 +2736,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.01, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 682704582}
+  m_Father: {fileID: 2140221982}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1589129940
 BoxCollider:
@@ -2723,7 +2829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleComeSygnal
   type: 1
-  target: BigBlackSquare
+  target: {fileID: 11400000, guid: 2eec0599cf394544784dd1d802fd965b, type: 2}
 --- !u!54 &1589129944
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2780,10 +2886,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 317775745}
   - {fileID: 594441031}
   - {fileID: 5244096}
   - {fileID: 515304517}
-  - {fileID: 317775745}
   - {fileID: 1994739499}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2836,7 +2942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1928179174
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3140,6 +3246,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121234668}
   m_CullTransparentMesh: 1
+--- !u!1 &2140221981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2140221982}
+  - component: {fileID: 2140221983}
+  m_Layer: 0
+  m_Name: BigBlackSquareSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2140221982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140221981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1589129939}
+  m_Father: {fileID: 682704582}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2140221983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140221981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15502664d8ad834f889eba6fd278531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActionOnQuestProgress
+  quest: {fileID: 11400000, guid: 134dec15052fdce49ba1ae1d4f439d42, type: 2}
+  state: 2
+  step: 1
+  action: 0
+  objs:
+  - {fileID: 1589129938}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
